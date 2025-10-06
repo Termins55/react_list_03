@@ -1,0 +1,50 @@
+.li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.p {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+}
+
+.FaTrash {
+  margin-left: auto;
+  font-size: 16px;
+  color: #999;
+  padding: 4px 8px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+}
